@@ -2,9 +2,9 @@
 
 /* appearance */
 static const char *fonts[] = {
-	"DejaVu Sans Mono:size=14"
+	"DejaVu Sans Mono for Powerline:size=14"
 };
-static const char dmenufont[]       = "DejaVu Sans Mono:size=14";
+static const char dmenufont[]       = "DejaVu Sans Mono for Powerline:size=14";
 static const char normbordercolor[] = "#c49b9b";
 static const char normbgcolor[]     = "#222222";
 static const char normfgcolor[]     = "#ba9d3d";

@@ -32,6 +32,12 @@ clean:
 	@echo cleaning
 	@rm -f dwm ${OBJ} dwm-${VERSION}.tar.gz config.h
 
+patch:
+	patch -p0 < customization.diff
+
+unpatch:
+	patch -p0 -R < customization.diff
+
 dist: clean
 	@echo creating dist tarball
 	@mkdir -p dwm-${VERSION}

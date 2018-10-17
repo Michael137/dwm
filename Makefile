@@ -34,9 +34,11 @@ clean:
 
 patch:
 	patch -p0 < customization.diff
+	patch -p0 < spawn_cwd.diff
 
 unpatch:
 	patch -p0 -R < customization.diff
+	patch -p0 -R < spawn_cwd.diff
 
 dist: clean
 	@echo creating dist tarball
